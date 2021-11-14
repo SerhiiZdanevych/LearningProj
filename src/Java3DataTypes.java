@@ -27,6 +27,8 @@ public class Java3DataTypes {
         // ============================================================
 
         long l1 = 1465465465465465444L;
+
+        //  (int) var -> Type casting ; Converting type of var to int
         int n = (int) l1; // can cause incorrect result if long > intMax
         System.out.println("n = " + n);
 
@@ -37,6 +39,10 @@ public class Java3DataTypes {
 
         double d1 = 6 / 5; // = 1 :  1) int i = 6/5 2) d1 = i
         double d2 = 19d / 17; //
+
+        int n1 = (int) d2;
+        System.out.println("n1 = " + n1);
+
         System.out.println("d1 = " + d1);
         System.out.println("d2 = " + d2);
 
@@ -55,10 +61,6 @@ public class Java3DataTypes {
         boolean result = emptyString == defaultString;
         
         System.out.println(result);
-
-      
-
-
 
     }
 
